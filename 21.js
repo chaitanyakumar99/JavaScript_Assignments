@@ -1,7 +1,9 @@
- // Number which is divisible by 7 up to 100
- 
-for(let i=0;i<=100;i++){
-    if(i%7==0){
- console.log(i);
-    }
-  }
+// 21. Write a program to check if a number is divisible by 7 or not
+
+let i=57;
+if(i%7==0){
+   console.log("Number is divisible by 7");
+}
+else{
+   console.log("Number is not divisible by7");
+}
